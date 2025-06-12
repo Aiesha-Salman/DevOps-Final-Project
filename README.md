@@ -2,9 +2,9 @@
 
 A complete, production-ready AWS deployment with Terraform, Docker, and BI analytics. This project includes:
 
-- A **React frontend** (`ayeshal2.unmashable.online`)
-- A **Node.js backend** (`ayeshal2023.unmashable.online`)
-- **Metabase BI dashboard** (`ayeshaubuntu.unmashable.online`)
+- A **React frontend** 
+- A **Node.js backend** 
+- **Metabase BI dashboard** 
 - **MySQL and PostgreSQL RDS** instances secured in private subnets
 - An **Application Load Balancer** with HTTPS and host-based routing
 
