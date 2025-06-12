@@ -13,11 +13,11 @@ A complete, production-ready AWS deployment with Terraform, Docker, and BI analy
 ## 📂 Project Structure
 
 
--├── terraform/ # Terraform configuration files
--├── userdata/ # EC2 setup scripts: Ubuntu, AL2, AL2023
--├── reactapp/ # React frontend (Docker build)
--├── nodeapp-iba/ # Node.js backend (Docker build)
--└── README.md # This file
+- Terraform/ # Terraform configuration files
+- Userdata/ # EC2 setup scripts: Ubuntu, AL2, AL2023
+- Reactapp/ # React frontend (Docker build)
+- Nodeapp-iba/ # Node.js backend (Docker build)
+- README.md # This file
 
 
 
