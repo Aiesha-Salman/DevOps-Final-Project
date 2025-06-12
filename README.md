@@ -19,9 +19,7 @@ A complete, production-ready AWS deployment with Terraform, Docker, and BI analy
 ├── nodeapp-iba/ # Node.js backend (Docker build)
 └── README.md # This file
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -29,7 +27,7 @@ Edit
 
 1. **Clone this repo**  
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Aiesha-Salman/DevOps-Final-Project
 Prepare Terraform variables
 
 bash
@@ -40,9 +38,7 @@ cp variables.tfvars.example variables.tfvars
 # Update AWS region, domain, key name, and RDS credentials
 Deploy infrastructure
 
-bash
-Copy
-Edit
+
 terraform init
 terraform plan -var-file=variables.tfvars
 terraform apply -var-file=variables.tfvars
