@@ -28,22 +28,13 @@ A complete, production-ready AWS deployment with Terraform, Docker, and BI analy
 1. **Clone this repo**  
    ```bash
    git clone https://github.com/Aiesha-Salman/DevOps-Final-Project
-Prepare Terraform variables
+2. **Prepare Terraform variables**
 
-bash
-Copy
-Edit
-cd terraform
-cp variables.tfvars.example variables.tfvars
-# Update AWS region, domain, key name, and RDS credentials
-Deploy infrastructure
-
-
-terraform init
-terraform plan -var-file=variables.tfvars
-terraform apply -var-file=variables.tfvars
-Load data into RDS
-Use SSH tunneling (via EC2) and DBeaver or CLI to import car dealership data.
+- terraform init
+- terraform plan -var-file=variables.tfvars
+- terraform apply -var-file=variables.tfvars
+- Load data into RDS
+- Use SSH tunneling (via EC2) and DBeaver or CLI to import car dealership data.
 
 Access the services
 
@@ -55,13 +46,7 @@ Metabase: https://ayeshaubuntu.unmashable.online
 
 Build dashboards
 
-Sales trend – line chart from monthly_sales
-
-City sales – bar or pie chart from city_sales
-
-Top models per brand – clustered bar from top_models_per_brand
-
-🚀 What's Inside
+## 🚀 What's Inside
 IAC: Modular .tf files for VPC, subnets, EC2, ALB, ACM, DNS, RDS, security policies
 
 User-data scripts: Automated setup of Docker, Nginx, Certbot, and Docker Compose
